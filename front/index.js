@@ -1,4 +1,4 @@
-const apiBaseUrl = "http://18.203.100.180/3000";
+const apiBaseUrl = "http://18.203.100.180:3000";
 
 DisplayInitialCounterValue();
 
