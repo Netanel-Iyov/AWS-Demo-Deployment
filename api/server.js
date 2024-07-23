@@ -13,6 +13,7 @@ const corsOptions = {
     "http://18.203.100.180",
     "http://aws-deployment-demo.niyov.com",
     "http://127.0.0.1:5500",
+    "http://18.203.100.180",
   ],
   optionsSuccessStatus: 200,
 };
