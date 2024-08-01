@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-//const apiBaseUrl = "http://18.203.100.180:3000";
-const apiBaseUrl = "http://localhost:3000";
+const apiBaseUrl = "http://18.203.100.180:3000";
+// const apiBaseUrl = "http://localhost:3000";
 
 function App() {
   const [counter, setCounter] = useState(1);
