@@ -20,7 +20,7 @@ RUN npm run build
 FROM nginx:stable-alpine
 
 # Copy the built app from the previous stage
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/www
 
 # Expose the port that Nginx will run on
 EXPOSE 80
