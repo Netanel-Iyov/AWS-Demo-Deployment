@@ -9,12 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 const corsOptions = {
-  origin: [
-    "http://18.203.100.180",
-    "http://aws-deployment-demo.niyov.com",
-    "http://127.0.0.1:5500",
-    "http://18.203.100.180",
-  ],
+  origin: ["http://46.51.129.218"],
   optionsSuccessStatus: 200,
 };
 
