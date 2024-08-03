@@ -15,7 +15,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-let counter = 10;
+let counter = 0;
 
 // Sample GET route with parameters
 app.get("/counter", (req, res) => {
